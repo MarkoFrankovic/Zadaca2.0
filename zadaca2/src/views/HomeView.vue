@@ -69,8 +69,8 @@ export default {
       let temp = {
         ime: rezultati.name,
         godine: rezultati.age,
-        spol: rezultati.gender,
-        vjerojatnost: rezultati.probability,
+        spol: rezultati2.gender,
+        vjerojatnost: rezultati2.probability,
       };
       this.items.push(temp);
 
